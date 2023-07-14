@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+.app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+
+.weather-section{
+    background: linear-gradient(-45deg, #5eafdb, #7e70b1);
+    padding: 5rem;
+    border-radius: 10px;
+}
+.search-icon{
+    width: 1.8rem;
+    height: 1.8rem;
+    color: #000;
+}
+.search-button{
+    background-color: #fff;
+    border: 1px solid black;
+    padding: .5rem;
+    cursor: pointer;
+    border-radius: 30%;
+}
+.search-button:hover{
+    background-color: #adc0e7;
+    border: 1px solid #fff;
+    transition: ease-in .2s ;
+    transform: translateY(-2px);
+}
+
+.input-element{
+    padding: 1rem 2.5rem 1rem 1rem;
+    height: 3rem;
+    width: 15rem;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.input-element:focus{
+    outline: none;
+}
+.search-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.temperature-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.weather-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.weather-image:hover{
+    transition: .7s ;
+    transform: translateY(-20px);
+}
+.temperature{
+    font-size: 3.5rem;
+    margin: 2rem 0;
+    color: #fff;
+}
+.city-title{
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    color: #fff;
+}
+.temperature-detail-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-img-condition{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 10px;
+}
+
+.weather-condition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.speed-detail h3{
+    padding-right: 5px;
+}
+.speed-info-one{
+    display: flex;
+    align-items: center;
+}
