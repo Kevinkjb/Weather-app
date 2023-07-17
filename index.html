@@ -10,37 +10,46 @@
 <body>
     <div class="app-container">
         <div class="weather-section">
-            <div class="search-section">
-                <input class="input-element" type="text" placeholder="Enter City..">
-                <button class="search-button"><img class="search-icon" src="images/search.png" alt=""></button>
-            </div>
-            <div class="weather-image">
-                <img src="images/clouds.png" alt="">
-            </div>
-            <div class="temperature-information">
-                <h1 class="temperature">27°C</h1>
-                <p class="city-title">City Name</p>
-            </div>
-            <div class="temperature-detail-section">
-                <div class="weather-condition">
-                    <img class="weather-img-condition" src="images/humidity.png" alt="">
-                    <div class="humidity-detail">
-                        <h3>47%</h3>
-                        <p>Humidity</p>
-                    </div>
+            
+                <div class="search-section">
+                
+                        <input class="input-element" type="text" placeholder="Enter City.." name="placeName">
+                        <button class="search-button"><img class="search-icon" src="images/search.png" alt=""></button>
+                    
+
                 </div>
-                <div class="weather-condition">
-                    <img class="weather-img-condition" src="images/wind.png" alt="">
-                    <div class="speed-detail">
-                        <div class="speed-info-one">
-                            <h3>100</h3>
-                            <p>Km/h</p>
-                        </div>
-                        <div class="speed-info-two">
-                            <p>Wind Speed</p>
+            
+            <div class="error"></div>
+            <div class="weather-info">
+                <div class="weather-image">
+                    <img class='weather-image-display' src="images/clouds.png" alt="">
+                </div>
+                <div class="temperature-information">
+                    <h1 class="temperature">27°C</h1>
+                    <p class="city-title">City Name</p>
+                </div>
+                <div class="temperature-detail-section">
+                    <div class="weather-condition">
+                        <img class="weather-img-condition" src="images/humidity.png" alt="">
+                        <div class="humidity-detail">
+                            <h3 class="humidity-result">47%</h3>
+                            <p>Humidity</p>
                         </div>
                     </div>
-                </div>
+                    <div class="weather-condition">
+                        <img class="weather-img-condition" src="images/wind.png" alt="">
+                        <div class="speed-detail">
+                            <div class="speed-info-one">
+                                <h3 class="wind-speed">100</h3>
+                                <p>Km/h</p>
+                            </div>
+                            <div class="speed-info-two">
+                                <p>Wind Speed</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+   
             </div>
 
       
@@ -51,6 +60,6 @@
         </div>
     </div>
 
-    <script src="index.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
